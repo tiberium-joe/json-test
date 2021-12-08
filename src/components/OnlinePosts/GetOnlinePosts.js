@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './GetOnlinePosts.css'
-import { WithContext as ReactTags } from 'react-tag-input';
 
 class GetOnlinePosts extends Component {
     constructor(props){
