@@ -10,7 +10,7 @@ class GetOnlinePosts extends Component {
             posts : []
         };
     }
-       
+    
 
     componentDidMount(){
         const requestOptions = {
@@ -43,6 +43,8 @@ class GetOnlinePosts extends Component {
     render() {
         const {error, isLoaded, posts} = this.state;
         console.log(this.state)
+
+        
 
         if(error){
             return <div>Error in loading</div>
