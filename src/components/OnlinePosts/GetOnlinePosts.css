@@ -1,0 +1,48 @@
+.title{
+    font-size: 12pt;
+    color: black;
+    text-align:center;
+    display: inline;
+}
+
+body, html {
+    height: 100%;
+  }
+
+ul{
+    list-style-type:none;
+    display: table;
+        margin: 0 auto;
+
+        text-align: left;
+}
+
+li {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.item{
+    margin: 10px;
+    font-size: 20pt;
+    color: crimson;
+    list-style-type:none;
+}
+
+.test {
+    float:center;
+    text-align:center;
+}
+
+.description{
+    font-size: 10pt;
+    color: gray;
+    text-align:center;
+}
+
+.severity{
+    background-color:lightblue;
+    font-size:8pt;
+    width:min-content;
+    display: inline;
+}
